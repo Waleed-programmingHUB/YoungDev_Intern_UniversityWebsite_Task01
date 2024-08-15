@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace YoungDev_Intern_UniversityWebsite_Task01.Server.Controllers
 {
     [ApiController]
-    [Route("[api/visitor]")]
+    [Route("[controller]")]
     public class VisitorController : ControllerBase
     {
         [HttpGet(Name = "Coursers")]
